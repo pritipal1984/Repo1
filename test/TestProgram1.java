@@ -22,7 +22,7 @@ public class TestProgram1 {
 	}
 	public static void main(String arg)
 	{
-		System.out.println("Test method");
+		System.out.println("Test method again");
 	}
 
 }
