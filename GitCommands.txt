@@ -41,6 +41,10 @@ Step 5 :	To Delete Branch, you must checkout some other branch like master
 			git branch -d MyNewBranch				--To delete from local
 			git push origin --delete MyNewBranch	--To delete from remote
 			
-
+Send email from GitHub
+Step 1 :	Open Github remote Repository (https://github.com/pritipal1984/Repo1) - 
+			Than Settings - Than Notifications - Add address (email address)
+Step 2 :	Test and validate by making some change in the project and push the changes
+			
 			
 
