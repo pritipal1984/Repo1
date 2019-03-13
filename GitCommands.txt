@@ -1,0 +1,36 @@
+
+
+Step 1 :	Check if git is already installed
+			git --version
+Step 2 :	download and install git
+			git-scm.com
+Step 3 :	Add your project to git
+			git config --global user.email "yourgithub@email.com"
+			git config --global user.name "yourgithubUserName"
+Step 4 :	create an account on github
+Step 5 :	copy the online URL to push the changes on remote (cloude)
+Step 6 :	Commands
+			git init
+			git status
+			git add <file-name or wildcards>
+			git commit -m <"Message that what you have added/deleted/modified">
+			git log
+			git --help
+		Add on Remote machine -	
+			git remote add origin <https://github.com/pritipal1984/Repo1.git>
+			git push -u origin master
+			
+Branch Management in GIT
+Step 1 :	Create Branch
+			git branch <"branch name">
+Step 2 :	Checkout Branch
+			git checkout <"branch name">
+Step 3 :	Merge new Branch in master branch
+			git merge <"branch name">
+Step 4 :	Delete Branch
+			git branch -d <"branch name">				--To delete from local
+			git push origin --delete <"branch name">	--To delete from remote
+			
+
+			
+
