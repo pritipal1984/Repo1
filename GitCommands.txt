@@ -21,20 +21,24 @@ Step 6 :	Commands
 			git push -u origin master
 			
 Branch Management in GIT
-Step 1 :	Create Branch
-			git branch <"branch name">
+Step 1 :	Create Branch    =====  git branch <"new branch name">
+			git branch MyNewBranch
 Step 2 :	Checkout Branch
-			git checkout <"branch name">
+			git checkout MyNewBranch
 		Still online it shows one branch so add a new file and then check the git status 
 			git status
 Step 3 :	git add .
-			git commit -m "message"
-			git push -u origin <"branch name">
+			git commit -m "Updated file GitCommands.txt"
+			git push -u origin MyNewBranch
+			git checkout master
 Step 3 :	Merge new Branch in master branch
-			git merge <"branch name">
+			git merge MyNewBranch
+			git push -u origin master
+			git checkout MyNewBranch
+			git status
 Step 4 :	Delete Branch
-			git branch -d <"branch name">				--To delete from local
-			git push origin --delete <"branch name">	--To delete from remote
+			git branch -d MyNewBranch				--To delete from local
+			git push origin --delete MyNewBranch	--To delete from remote
 			
 
 			
