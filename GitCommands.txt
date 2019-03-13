@@ -25,6 +25,11 @@ Step 1 :	Create Branch
 			git branch <"branch name">
 Step 2 :	Checkout Branch
 			git checkout <"branch name">
+		Still online it shows one branch so add a new file and then check the git status 
+			git status
+Step 3 :	git add .
+			git commit -m "message"
+			git push -u origin <"branch name">
 Step 3 :	Merge new Branch in master branch
 			git merge <"branch name">
 Step 4 :	Delete Branch
