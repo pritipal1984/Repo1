@@ -31,12 +31,13 @@ Step 3 :	git add .
 			git commit -m "Updated file GitCommands.txt"
 			git push -u origin MyNewBranch
 			git checkout master
-Step 3 :	Merge new Branch in master branch
+Step 4 :	Merge new Branch in master branch
 			git merge MyNewBranch
 			git push -u origin master
 			git checkout MyNewBranch
 			git status
-Step 4 :	Delete Branch
+Step 5 :	To Delete Branch, you must checkout some other branch like master
+			git checkout master
 			git branch -d MyNewBranch				--To delete from local
 			git push origin --delete MyNewBranch	--To delete from remote
 			
